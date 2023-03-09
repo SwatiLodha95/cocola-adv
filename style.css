@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(https://thumbor.thedailymeal.com/Ci4_whkzoJJaDBWm7flSvOAIL2w=/870x565/https://www.thedailymeal.com/sites/default/files/2019/06/13/iStock-458297599_0.jpg);
+    /* background: #ff6e7f;
+    background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);
+    background: linear-gradient(to right, #bfe9ff, #ff6e7f);
+     */
+
+
+}
+
+.container {
+    height: 400px;
+    width: 550px;
+    align-items: center;
+    justify-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(https://image.shutterstock.com/image-photo/coca-cola-inscription-on-glass-260nw-1233270628.jpg);
+
+}
+    button.btn {
+        align-items: center;
+        justify-items: center;
+        background-color: #241b1c;
+        
+    }
+    h1.adve{
+    color: rgb(23, 23, 22);
+    align-items: center;
+    justify-content: center;
+    animation: Anim 4s;
+    font-weight: 900;
+    }
+    @keyframes Anim{
+        from{
+            margin: 0px;
+
+        }
+        to{
+           margin-top:10rem ;
+         margin-left: 10rem;
+         transform: matrix(25);
+         height: 200px;
+         width: 200px;
+
+        }
+    }
+        
